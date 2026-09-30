@@ -58,28 +58,8 @@ security features and capabilities please refer to
 ![nginx2](images/nginx2.png)
 ![nginx3](images/nginx3.png)
 
-### docker ps
 
-![docker ps](images/docker-ps.png)
-EOFcd ~/devops/week05
-cat >> README.md << 'EOF'
 
-### 브라우저 확인 (스크린샷)
-
-![nginx1](images/nginx1.png)
-![nginx2](images/nginx2.png)
-![nginx3](images/nginx3.png)
-
-### 브라우저 확인 (스크린샷)
-
-![nginx1](images/nginx1.png)
-![nginx2](images/nginx2.png)
-![nginx3](images/nginx3.png)
 
 cat >> README.md << 'EOF'
 
-### 브라우저 확인 (스크린샷)
-
-![nginx1](images/nginx1.png)
-![nginx2](images/nginx2.png)
-![nginx3](images/nginx3.png)
