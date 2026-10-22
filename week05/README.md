@@ -1,12 +1,12 @@
 # 5주차-Docker
--[x] `docker --version` 정상출력
--[x] `docker run hello-world` 실행
--[x] `web`이라는이름으로nginx 컨테이너실행
--[x] 브라우저또는`curl`로`http://localhost:8080` 응답확인
--[x] `docker ps`에서실행상태를확인
--[x] 실습결과를`week05/README.md`에기록
--[ ] 수업에서만든컨테이너정리
--[ ] 혼자서해보기완
+- [x] `docker --version` 정상출력
+- [x] `docker run hello-world` 실행
+- [x] `web`이라는이름으로nginx 컨테이너실행
+- [x] 브라우저또는`curl`로`http://localhost:8080` 응답확인
+- [x] `docker ps`에서실행상태를확인
+- [x] 실습결과를`week05/README.md`에기록
+- [x] 수업에서만든컨테이너정리
+- [x] 혼자서해보기완
 ## 혼자서 해보기: nginx 3개 실행
 
 ### curl 확인 결과
@@ -59,7 +59,8 @@ security features and capabilities please refer to
 ![nginx3](images/nginx3.png)
 
 
-
-
-cat >> README.md << 'EOF'
-
+## 배운 점
+- 이미지는 붕어빵 틀, 컨테이너는 그 틀로 찍어낸 붕어빵이다. 같은 이미지로 여러 컨테이너를 띄울 수 있다.
+- `-p 호스트포트:컨테이너포트`로 포트를 연결해야 밖에서 접속할 수 있다. 그래서 nginx 3개는 8091, 8092, 8093으로 나눠 띄웠다.
+- `-d`는 백그라운드 실행, `--name`은 컨테이너 이름 지정이다.
+- 컨테이너를 지우면 컨테이너 안에서 바꾼 내용(쓰기 계층)도 함께 사라진다.

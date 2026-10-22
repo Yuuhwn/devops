@@ -3,3 +3,4 @@ week04/restore-check/
 *:Zone.Identifier
 *:Zone.Identifier
 .env
+watchdog.log
