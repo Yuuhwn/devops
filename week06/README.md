@@ -4,9 +4,9 @@
 ghcr.io/yuuhwn/guestbook:v2
 
 ## 2. 친구 이미지 실행
-![친구 이미지 실행 화면](images/friend-run.png)
+![친구 이미지 실행 화면](images/friend.png)
 
-## 3. Dockerfile의 각 줄이 하는 역
+## 3. Dockerfile의 각 줄이 하는 역할 
 FROM python:3.12-slim — Python이 포함된 기본 이미지를 사용합니다.
 WORKDIR /app — 컨테이너 내부의 작업 디렉터리를 /app으로 설정합니다.
 COPY requirements.txt . — 라이브러리 목록을 별도로 복사하여 다음 단계가 캐시되도록 합니다.

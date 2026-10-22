@@ -13,6 +13,8 @@ services:
     build: .
     expose:
       - "5000"
+    deploy:
+      replicas: 3
     healthcheck:
       test: ["CMD", "python", "-c", "import urllib.request; urllib.request.urlopen('http://localhost:5000/')"]
       interval: 5s
@@ -26,7 +28,7 @@ services:
       REDIS_PASSWORD: "${REDIS_PASSWORD:?비밀번호 설정 필요}"
     depends_on:
       - redis
-    restart: unless-stopped
+    restart: always
     develop:
       watch:
         - action: rebuild
