@@ -9,8 +9,7 @@
 - [5주차 - Docker 시작하기](./week05/README.md)
 - [6주차 - Dockerfile과 ghcr.io 배포](./week06/README.md)
 - [7주차 - 도커 컴포즈 (guestbook + redis + nginx, scale)](./week07/README.md)
-- [9주차 - 쿠버네티스 첫 배포] (./week09/README.md)
-
+- [9주차 - 쿠버네티스 첫 배포](./week09/README.md)
 ## 실습 앱
 - [guestbook](./guestbook/) - Flask 방명록 앱 (Dockerfile, compose.yaml, nginx.conf)
 
