@@ -4,3 +4,4 @@ week04/restore-check/
 *:Zone.Identifier
 .env
 watchdog.log
+guestbook/k8s/secret.yaml
