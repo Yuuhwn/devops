@@ -5,3 +5,4 @@ week04/restore-check/
 .env
 watchdog.log
 guestbook/k8s/secret.yaml
+__pycache__/ __pycache__/
